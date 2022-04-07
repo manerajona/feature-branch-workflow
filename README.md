@@ -62,13 +62,47 @@ Este tipo de branch se utiliza cuando queremos agregar tests automatizados a la 
 
 ## Pull-requests
 
-Para crear un PR, abrir en el navegador el repositorio en github.com e ir a la solapa que dice *Pull request* (a la derecha de *Issues*). Luego seleccionar "New pull request", dejar el "base" en main y compararlo con el branch que queremos integrar.
+1. Para crear un PR, abrir en el navegador el repositorio en github.com e ir a la solapa que dice *Pull request* (a la derecha de *Issues*). 
+2. Luego seleccionar "New pull request", dejar el "base" en main y compararlo con el branch que queremos integrar.
 
-Como título de PR usar la siguiente convención de nombre:
+3. Como título de PR usar la siguiente convención de nombre:
 
 > **[#TICKET] Descripción breve**
 
 Ejemplo: **[OT149-123] Added Users documentation**
+
+4. Llenar en el template la información relevante sobre lo que modificamos en el código fuente.
+
+&nbsp;
+
+### Ejemplo pull-request template
+------------------------------------------------
+## Why is this change required?
+
+### Motivation and Summary
+
+> Ticket, User Story, etc
+
+### Type of change
+
+> Check all that best describes your change.
+
+- [ ] New Feature
+- [ ] Bug Fix
+- [ ] Hot Fix
+- [ ] Refactor (no functional change)
+- [ ] Tests (no functional change)
+
+### Impact of change
+
+> Describe the change **before** and **after** your change. e.g. API samples, error samples, performance numbers, etc
+
+### Checklist
+- [ ] There is traceability between this change and Jira.
+- [ ] All automated tests ran successfully.
+- [ ] There are no unused variables and/or imports in the modified files.
+- [ ] All public methods were properly documented.
+------------------------------------------------
 
 &nbsp;
 
